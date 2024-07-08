@@ -1,13 +1,13 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Todo list data saved in Indexed DB using Dexie",
+  title: 'Todo list data saved in Indexed DB using Dexie',
   description:
-    "Implementation of Todo list app, all the data saved in Indexed DB using Dexie",
+    'Implementation of Todo list app, all the data saved in Indexed DB using Dexie',
 };
 
 interface RootLayoutProps {
